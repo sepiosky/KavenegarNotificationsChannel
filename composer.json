@@ -1,0 +1,39 @@
+{
+    "name": "sepiosky/kavenegar-notifications-channel",
+    "description": "Kavenegar Notifications Channel for Laravel",
+    "homepage": "https://github.com/sepiosky/KavenegarNotificationsChannel",
+    "type": "laravel-package",
+    "keywords": [
+        "kavenegar notifications channel",
+        "kavenegar notification",
+        "kavenegar sms channel",
+        "notification",
+        "kavenegar",
+        "laravel",
+        "sms"
+    ],
+    "authors": [
+        {
+            "name": "Sepehr Ghobady",
+            "email": "sepehr1377.sg@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "kavenegar/php": "*",
+        "illuminate/notifications": "^5.5 || ^6.0 || ^7.0 || ^8.0",
+        "illuminate/support": "^5.5 || ^6.0 || ^7.0 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NotificationChannels\\Kavenegar\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NotificationChannels\\Kavenegar\\KavenegarServiceProvider"
+            ]
+        }
+    }
+}
