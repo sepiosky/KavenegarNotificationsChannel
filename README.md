@@ -1,4 +1,3 @@
-<meta name="google-site-verification" content="7htruvvzTOBI_fPl9CuEen8uKLICfaEMYZHB8GwaY5s" />
 # Kavenegar Notifications Channel for Laravel
 
 This package makes it easy to send SMS notification using [Kavenegar API](https://kavenegar.com) (both [SMS webservice](https://kavenegar.com/register-webservice-sms.html) and [OTP webservice](https://kavenegar.com/sms/verification)) with Laravel.
